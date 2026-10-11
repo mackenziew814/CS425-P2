@@ -17,7 +17,7 @@
  *   In-memory channel: 20% loss/corrupt/dup, fixed seed, bytes verified
  */
 
-#include "unity.h"
+#include "harness/unity.h"
 #include "lab.h"
 
 #include <string.h>
