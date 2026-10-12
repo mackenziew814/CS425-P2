@@ -18,12 +18,12 @@
  */
 
 #include "harness/unity.h"
-#include "src/lab.h"
+#include "../src/lab.h"
 
 #include <string.h>
 #include <stdint.h>
 #include <stdlib.h>
-
+ 
 /* =========================================================================
  * Unity boilerplate
  * ======================================================================= */

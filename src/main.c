@@ -547,6 +547,7 @@ static int run_send(const config_t *cfg)
 /* =========================================================================
  * main
  * ======================================================================= */
+#ifndef TEST
 int main(int argc, char *argv[])
 {
     if (argc == 1) { print_usage(); return 0; }
@@ -561,3 +562,4 @@ int main(int argc, char *argv[])
            ? run_recv(&cfg)
            : run_send(&cfg);
 }
+#endif
