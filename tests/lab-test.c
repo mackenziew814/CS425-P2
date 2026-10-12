@@ -18,7 +18,7 @@
  */
 
 #include "harness/unity.h"
-#include "lab.h"
+#include "src/lab.h"
 
 #include <string.h>
 #include <stdint.h>
